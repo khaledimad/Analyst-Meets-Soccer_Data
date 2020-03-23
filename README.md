@@ -74,7 +74,7 @@ model.
 ## Fitting a Lasso Regression with Optimal Alpha
 According to our code, the ideal value of alpha is 0.001 where 32 features are utilized. Using
 these 32 features, an R2 value of 0.924 was deduced which is higher than the value obtained
-from Q1 (0.921). The main issue with Lasso is that when the model has correlated variables, it
+from Part 1 (0.921). The main issue with Lasso is that when the model has correlated variables, it
 will keep one variable while setting other variables to zero thus sacrificing the accuracy of the
 model to avoid multicollinearity. Nonetheless, by looking for an ideal value for alpha, we are
 targeting the best estimator which would yield the highest model accuracy rather than focus on
@@ -82,8 +82,8 @@ minimizing the number of features that may contribute to multicollinearity.
 
 ## Assessing the best with Information Criterion
 According to the results obtained, we notice that the values of AIC / BIC are lower in the case of
-our Lasso regression model which we built in Q5. Having a lower AIC or BIC value indicates a 
-better fit; hence, the Lasso model built in Q5 was a better model. The only difference between
+our Lasso regression model which we built in Part 5. Having a lower AIC or BIC value indicates a 
+better fit; hence, the Lasso model built in Part 5 was a better model. The only difference between
 AIC and BIC is that BIC considers the number of observations as shown in the formula below:
 
 AIC = -2*ln(L) + 2*k
