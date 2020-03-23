@@ -1,5 +1,5 @@
 # Analyst-Meets-Soccer_Data
-Predicting player's overall scores with Lasso Regression
+Comparing Simple Regression, Simple Regression with CV & Lasso Regression
 
 ## Choosing a sample
 One way to choose a sample out of a significantly heterogeneous dataset for model training is to
